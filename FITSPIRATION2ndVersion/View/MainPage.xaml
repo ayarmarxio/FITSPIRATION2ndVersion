@@ -7,7 +7,25 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Image Source="../Assets/Images/24992826_1313837958722147_986259848_o.jpg" Stretch="UniformToFill"/>
+        
+        <StackPanel Grid.Column="1">
+            <StackPanel.Background>
+                <SolidColorBrush Color="White"/>
+            </StackPanel.Background>
+            <Image Source="../Assets/Images/fitspiration_logo.png"  Height="80" Width="180" Margin="0,120,0,50"/>
+            <TextBox/>
+            <TextBox/>
+            <TextBlock Text="Powered by Mystery Inc." HorizontalAlignment="Center"></TextBlock>
+            
+        </StackPanel>
+
 
     </Grid>
 </Page>

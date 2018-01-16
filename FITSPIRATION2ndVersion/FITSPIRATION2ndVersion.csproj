@@ -107,7 +107,12 @@
     <None Include="FITSPIRATION2ndVersion_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\Images\24992826_1313837958722147_986259848_o.jpg" />
+    <Content Include="Assets\Images\bg2.jpg" />
+    <Content Include="Assets\Images\Fitness 6.jpg" />
+    <Content Include="Assets\Images\fitspiration_icon.png" />
+    <Content Include="Assets\Images\fitspiration_logo.png" />
+    <Content Include="Assets\Images\workout-package_1.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
@@ -115,6 +120,7 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
